@@ -13,5 +13,7 @@
         public Guid CategoriaId { get; set; }
 
         public Categoria Categoria { get; set; }
+
+        //TODO => Criar validações de domínio
     }
 }

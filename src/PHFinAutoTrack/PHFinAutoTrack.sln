@@ -5,6 +5,14 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHFinAutoTrack.API", "PHFinAutoTrack.API\PHFinAutoTrack.API.csproj", "{3B15480A-88BA-4C16-A367-F4E36020933E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHFinAutoTrack.Domain", "PHFinAutoTrack.Domain\PHFinAutoTrack.Domain.csproj", "{5E043527-DD33-43A2-9348-A567B94E56F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHFinAutoTrack.Infra.Data", "PHFinAutoTrack.Infra.Data\PHFinAutoTrack.Infra.Data.csproj", "{4F7CCB22-C749-449A-8FAE-4B25D6B9299D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHFinAutoTrack.Infra.IoC", "PHFinAutoTrack.Infra.IoC\PHFinAutoTrack.Infra.IoC.csproj", "{F7B02461-4755-41F1-BA0A-C03CE309E319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PHFinAutoTrack.Application", "PHFinAutoTrack.Application\PHFinAutoTrack.Application.csproj", "{1054C73C-926B-4494-BFA0-BA266A0248A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{3B15480A-88BA-4C16-A367-F4E36020933E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B15480A-88BA-4C16-A367-F4E36020933E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B15480A-88BA-4C16-A367-F4E36020933E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E043527-DD33-43A2-9348-A567B94E56F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E043527-DD33-43A2-9348-A567B94E56F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E043527-DD33-43A2-9348-A567B94E56F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E043527-DD33-43A2-9348-A567B94E56F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7CCB22-C749-449A-8FAE-4B25D6B9299D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7CCB22-C749-449A-8FAE-4B25D6B9299D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7CCB22-C749-449A-8FAE-4B25D6B9299D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7CCB22-C749-449A-8FAE-4B25D6B9299D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B02461-4755-41F1-BA0A-C03CE309E319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B02461-4755-41F1-BA0A-C03CE309E319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B02461-4755-41F1-BA0A-C03CE309E319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B02461-4755-41F1-BA0A-C03CE309E319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1054C73C-926B-4494-BFA0-BA266A0248A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1054C73C-926B-4494-BFA0-BA266A0248A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1054C73C-926B-4494-BFA0-BA266A0248A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1054C73C-926B-4494-BFA0-BA266A0248A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

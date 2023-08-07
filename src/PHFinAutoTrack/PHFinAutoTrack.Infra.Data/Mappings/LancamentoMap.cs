@@ -25,7 +25,7 @@ namespace PHFinAutoTrack.Infra.Data.Mappings
 
             builder.Property(x => x.Imagem)
                 .HasColumnName("imagem")
-                .HasColumnType("VARCHAR(100)");
+                .HasColumnType("VARCHAR(300)");
 
             builder.Property(x => x.Valor)
                 .IsRequired()

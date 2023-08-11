@@ -18,12 +18,12 @@ namespace PHFinAutoTrack.Application.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<CategoriaDTO>> GetAll()
+        public async Task<IEnumerable<CategoriaDTO>> GetAllAsync()
         {
             return _mapper.Map<IEnumerable<CategoriaDTO>>(await _repository.GetAllAsync());
         }
 
-        public async Task<CategoriaDTO> GetById(Guid id)
+        public async Task<CategoriaDTO> GetByIdAsync(Guid id)
         {
             return _mapper.Map<CategoriaDTO>(await _repository.GetByIdAsync(id));
         }

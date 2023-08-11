@@ -12,10 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\PHFinAutoTrack.Application\PHFinAutoTrack.Application.csproj" />
     <ProjectReference Include="..\PHFinAutoTrack.Infra.IoC\PHFinAutoTrack.Infra.IoC.csproj" />
   </ItemGroup>
 

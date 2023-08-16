@@ -55,7 +55,7 @@ namespace PHFinAutoTrack.API.Controllers
             var sucess = await _categoriaService.DeleteAsync(id);
 
             if (!sucess) return new StatusCodeResult(500);
-            return Ok();
+            return Ok("Categoria excluída com sucesso!");
         }
 
     }

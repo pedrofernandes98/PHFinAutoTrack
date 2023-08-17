@@ -5,7 +5,7 @@ using System.Net;
 
 namespace PHFinAutoTrack.API.Controllers
 {
-    [Route("/api/categorias")]
+    [Route("/api/v1/categorias")]
     [ApiController]
     public class CategoriasController : ControllerBase
     {
@@ -43,8 +43,8 @@ namespace PHFinAutoTrack.API.Controllers
         [HttpPut("{id:guid}")]
         public async Task<IActionResult> Put(Guid id, [FromBody] CategoriaDTO categoriaDTO)
         {
-            if (id != categoriaDTO.Id) return BadRequest();
             if (categoriaDTO == null) return BadRequest();
+            if (id != categoriaDTO.Id) return BadRequest();
             var categoria = await _categoriaService.UpdateAsync(categoriaDTO);
             return Ok(categoria);
         }

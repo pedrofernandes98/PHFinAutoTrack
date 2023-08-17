@@ -4,6 +4,8 @@ namespace PHFinAutoTrack.Application.DTOs
 {
     public class LancamentoDTO
     {
+        public Guid Id { get; set; }
+
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         public DateTime DataLancamento { get; set; }
 
@@ -18,6 +20,6 @@ namespace PHFinAutoTrack.Application.DTOs
 
         public Guid CategoriaId { get; set; }
 
-        public CategoriaDTO Categoria { get; set; }
+        public CategoriaDTO? Categoria { get; set; }
     }
 }
